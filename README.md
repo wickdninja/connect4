@@ -1,3 +1,3 @@
 # Connect 4
 
-[Play The Game](http://todo.com)
+[Play The Game](https://wickdninja.github.io/connect4/)
