@@ -1,0 +1,63 @@
+/************************************************************
+** Global
+************************************************************/
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.text-centered {
+    text-align: center;
+}
+
+/************************************************************
+** Center
+************************************************************/
+#center {
+    width: 500px;
+    margin: 0px auto;
+}
+
+/************************************************************
+** Table Styles
+************************************************************/
+#connect-four {
+    border-collapse: collapse;
+}
+#connect-four td {
+    width: 70px;
+    height: 70px;
+    background-color: #ccc;
+    border: 2px solid #222;
+    text-align: center;
+    vertical-align: middle;
+}
+#connect-four td img {
+    width: auto;
+}
+/************************************************************
+** Player Board
+************************************************************/
+#player1 {
+    margin-right: 50px;
+}
+#player2 {
+    margin-left: 50px;
+}
+
+/************************************************************
+** Turn
+************************************************************/
+.turn {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+#player1.turn {
+    color: #ff0000 !important;
+    padding-left: 25px;
+    background: url('../images/red-indicator.jpg') no-repeat center left;
+}
+#player2.turn {
+    color: #000 !important;
+    padding-left: 25px;
+    background: url('../images/black-indicator.jpg') no-repeat center left;
+}

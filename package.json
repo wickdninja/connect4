@@ -1,0 +1,25 @@
+{
+  "name": "connect4",
+  "version": "1.0.0",
+  "description": "connect 4 game",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wickdninja/connect4.git"
+  },
+  "keywords": [
+    "connect4"
+  ],
+  "author": "wickdninja",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wickdninja/connect4/issues"
+  },
+  "homepage": "https://github.com/wickdninja/connect4#readme",
+  "devDependencies": {
+    "static-server": "^2.0.6"
+  }
+}
